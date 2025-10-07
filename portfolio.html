@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | SoftBobby</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="portfolio.css">
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header data-aos="fade-down">
+    <div class="container">
+      <div class="logo">SoftBobby</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="portfolio-hero" data-aos="fade-up">
+    <div class="container">
+      <h1>Our Portfolio</h1>
+      <p>Take a look at some of the innovative solutions we’ve built at SoftBobby.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="portfolio-grid container">
+    <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-5wMl6g1dyMTjfxv7cdYa7CqC1H95wv_Jew&s" alt="Project 1">
+      <h3>EduConnect</h3>
+      <p>An e-learning platform empowering students with interactive courses and real-time mentoring.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="200">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm9kTo-3WPTFgKPlTuJmO0QDoXoqspxZ4_o1ZObp68D3xtcoqGjAb-_oA2&s=10" alt="Project 2">
+      <h3>FinTrack</h3>
+      <p>A smart finance app helping users track expenses and grow savings with AI insights.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="300">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiSeQf7o-l4GQAAxPw5dK6mPMwWWxrGVwM9po6u_B77E7ImVniSUrIA_bF&s=10" alt="Project 3">
+      <h3>HealthPlus</h3>
+      <p>A healthcare platform connecting patients to doctors via secure video consultations.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="400">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ797sJb8ZQ6MpIDu5vWRHuQurEpI7m3ZoAdfTBg7FefkhzQYRpkvFwCRL&s=10" alt="Project 4">
+      <h3>ShopEase</h3>
+      <p>An e-commerce solution with personalized product recommendations and fast checkout.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+  </section>
+
+  <!-- Featured Case Study -->
+  <section class="case-study container" data-aos="fade-left">
+    <h2>Case Study: EduConnect</h2>
+    <p>
+      EduConnect was developed to address the challenges of remote learning in Africa.
+      The platform supports over 50,000 students, integrates live classes, and uses gamification to boost engagement.
+    </p>
+    <a href="#" class="btn">Read Case Study</a>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta" data-aos="fade-up">
+    <div class="container">
+      <h2>Let’s Build Something Great Together</h2>
+      <p>Have an idea? SoftBobby can bring it to life. Reach out today.</p>
+      <br>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" data-aos="fade-up">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>SoftBobby</h3>
+        <p>Illuminating Innovation through software solutions that empower businesses worldwide.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: contact@softbobby.com</li>
+          <li>Phone: +234-800-123-4567</li>
+          <li>Address: Lagos, Nigeria</li>
+        </ul>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 SoftBobby. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true, offset: 100 });
+  </script>
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

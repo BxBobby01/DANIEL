@@ -1,0 +1,75 @@
+/* Portfolio Page */
+.portfolio-hero {
+  background: linear-gradient(to right, #1c1f3a, #14162a);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.portfolio-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.portfolio-card {
+  background: #1c1f3a;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-card h3 {
+  color: #ffa07a;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Case Study */
+.case-study {
+  margin: 4rem auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+.case-study h2 {
+  color: #ffa07a;
+  margin-bottom: 1rem;
+}
+
+.case-study p {
+  margin-bottom: 1rem;
+}
+
+/* Call To Action */
+.cta {
+  background: #1c1f3a;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}

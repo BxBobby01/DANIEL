@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoftBobby - Illuminating Innovation</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+<header>
+  <div class="container">
+    <!-- Logo -->
+    <div class="logo">SoftBobby</div>
+
+    <!-- Hamburger Icon -->
+    <div class="menu-toggle" id="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <!-- Navigation -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Transforming Businesses with Cutting-Edge Software</h1>
+      <p>SoftBobby delivers innovative software solutions that drive growth and efficiency.</p>
+      <a href="#services" class="btn">Discover How</a>
+    </div>
+    <div class="hero-image" data-aos="fade-left">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlhwwuSdTa_8rmZCx5xaMLLoSzZbu9inrDNkfrRPSNNLnh866NOOn0z4n1&s=10" alt="Hero">
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2 data-aos="fade-up">Our Expertise</h2>
+    <p data-aos="fade-up">We deliver next-gen solutions across industries, driving innovation and efficiency.</p>
+    <div class="cards">
+      <div class="card" data-aos="zoom-in"><h3>Blockchain</h3><p>Secure and scalable blockchain solutions.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>Web & Mobile Apps</h3><p>Beautiful, responsive, and high-performance apps.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>Cloud & DevOps</h3><p>Modern cloud architectures & automated deployments.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>AI & Data</h3><p>Unlock insights with AI and machine learning.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>Consulting</h3><p>Technology strategy and digital transformation.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>Support</h3><p>Reliable maintenance, updates, and training.</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <h2 data-aos="fade-up">What Our Clients Say</h2>
+    <p data-aos="fade-up">Trusted by businesses and individuals worldwide.</p>
+    <div class="testimonial-grid">
+      <div class="testimonial" data-aos="flip-left">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+        <h3>James Miller</h3>
+        <p>"SoftBobby transformed our workflow. The new app saved us countless hours each week."</p>
+      </div>
+      <div class="testimonial" data-aos="flip-left">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+        <h3>Sophia Johnson</h3>
+        <p>"The consulting team guided our digital transformation journey perfectly."</p>
+      </div>
+      <div class="testimonial" data-aos="flip-left">
+        <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Client">
+        <h3>Daniel Carter</h3>
+        <p>"Excellent support! Always responsive and proactive in solving issues."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 data-aos="fade-up">Our Projects</h2>
+    <p data-aos="fade-up">Here are some of the innovative solutions we’ve crafted.</p>
+    <div class="portfolio-grid">
+      <div class="project-card" onclick="openModal('p1')" data-aos="fade-up">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7XRA-ejsvjRUDorqSUb3-6yPhizPUYADRc8UO-MTQAB2Pb-Fg6G31SFv&s=10" alt="Project 1"><h3>Fintech Dashboard</h3>
+      </div>
+      <div class="project-card" onclick="openModal('p2')" data-aos="fade-up">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk8_Fs_9P2m4A-AsST2hEl74GKuLco85BcRmMSFS6DDJcT0-PXuRQeDkw&s=10
+" alt="Project 2"><h3>E-Commerce App</h3>
+      </div>
+      <div class="project-card" onclick="openModal('p3')" data-aos="fade-up">
+        <img src="
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUkKf1wEqNWpPvSgauA5Nm79G3Ai1W8qgrTKxH2r2ly954pDyO6bv6TJY&s=10" alt="Project 3"><h3>AI Chat Assistant</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>SoftBobby</h3>
+        <p>Illuminating Innovation through software solutions that empower businesses worldwide.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: contact@softbobby.com</li>
+          <li>Phone: +234-800-123-4567</li>
+          <li>Address: Lagos, Nigeria</li>
+        </ul>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 SoftBobby. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true, offset: 100 });</script>e
+
+</body>
+</html>
